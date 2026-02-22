@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Weather Forecast Application</h1>
+
+    <button id="ShowWeatherForMyLocation">
+        Moja lokacija
+    </button>
+
+    <button id="changeLocation">
+        Promeni lokaciju
+    </button>
+
+    <div id="currentWeather"></div>
+
+    <h2>Prognoza za 3 dana</h2>
+    <div id="forecast3" class="forecast-container"></div>
+
+    <h2>Prognoza za 10 dana (mesečni prikaz)</h2>
+    <div id="forecast30" class="forecast-container"></div>
+
+</div>
+
+<script type="module" src="dist/script.min.js"></script>
+</body>
+</html>
